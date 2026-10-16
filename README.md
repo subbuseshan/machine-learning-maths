@@ -8,6 +8,24 @@ Mathematics for Machine Learning and Data Science Specialization offered by deep
 
 <br/>
 
+## Setup: running the notebooks locally
+
+Requires [conda](https://docs.conda.io/) (Anaconda / Miniconda / Miniforge).
+
+```bash
+make setup   # one-time: creates the `ml-maths` env + registers a Jupyter kernel
+make lab     # launches JupyterLab at the repo root
+```
+
+Other targets: `make smoke` (verify imports), `make update` (after editing `environment.yml`), `make clean` (remove caches).
+In VS Code / PyCharm, select the **Python (ml-maths)** kernel.
+
+Next steps after this specialization: maths gaps in [TODO.md](TODO.md), and the Senior MLE roadmap in [STUDY_PLAN.md](STUDY_PLAN.md).
+
+<hr/>
+
+<br/>
+
 ## Course 1 : [Linear Algebra for Machine Learning and Data Science](https://www.coursera.org/learn/machine-learning-linear-algebra)
 
 <br/>

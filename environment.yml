@@ -1,0 +1,19 @@
+name: ml-maths
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - ipywidgets
+  - ipympl            # backend for `%matplotlib widget`
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - sympy
+  - opencv            # `import cv2` in C1/w3 linear transformations lab
+  - pip:
+      - jax[cpu]      # autodiff in C2/w1 labs
